@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moyenne d'un Etudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Calcul de la Moyenne</h1>
+<div>
+    <img src="images/plus.png" usemap="#ajout_map">
+    <map name="ajout_map">
+        <area id="plus" shape="circle" coords="14,14,14" title="Ajouter une matière">
+    </map>
+    <span id="ajout">  Ajouter une Matiere</span>
+    <table id="table">
+        <thead>
+        <tr>
+            <th>Matieres</th>
+            <th>Notes</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="2">Moyenne</td>
+            <td id="moyenne"></td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
