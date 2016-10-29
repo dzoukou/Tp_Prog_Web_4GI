@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+h1{
+    padding-left: 10px;
+    border-bottom: solid;
+    border-bottom-color: #030b67;
+}
+div{
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+    width: 600px;
+    height: 60px;
+}
+label{
+    color: white;
+}
+#nombre{
+    background-color: red;
+    color: black;
+}
+#carre{
+    background-color: green;
+    color: black;
+}
+#resultat{
+    color: white;
+}
